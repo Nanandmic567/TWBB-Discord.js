@@ -16,4 +16,16 @@ botRem.on('message', message => {
   }
 });
 
+botRem.on('message', message => {
+  if (message.content === 'คิดผิดมั้ยพี่?') {
+    message.reply('ผิดตั้งแต่น้องเรมเข้าสิงพี่ละ....');
+  }
+});
+
+botRem.on('message', message => {
+  if (message.content === 'เทสอีกรอบนะพี่') {
+    message.reply('จ้ะพ่อคุ๊ณณณณ....');
+  }
+});
+
 botRem.login('YOUR_BOT_TOKEN_HERE');

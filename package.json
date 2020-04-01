@@ -5,6 +5,7 @@
   "main": "myBot.js",
   "dependencies": {
     "discord.js": "^10.0.1"
+    "request": "2.81.0"
   },
   "devDependencies": {},
   "scripts": {

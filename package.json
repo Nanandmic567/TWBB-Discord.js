@@ -4,7 +4,7 @@
   "description": "Example discord bot by using discord.js",
   "main": "myBot.js",
   "dependencies": {
-    "discord.js": "^10.0.1",
+    "discord.js": "11.1.0",
     "request": "2.81.0"
   },
   "devDependencies": {},

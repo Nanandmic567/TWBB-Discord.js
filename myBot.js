@@ -28,4 +28,4 @@ botRem.on('message', message => {
   }
 });
 
-botRem.login('YOUR_BOT_TOKEN_HERE');
+botRem.login('NjMwNjIzNjE2OTQ5NTUxMTM1.XoMpAA.PTTIbLPEuxA4lIkMioz9e3-gMrM');

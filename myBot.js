@@ -9,6 +9,11 @@ botRem.on('ready', () => {
   console.log('Rem ready!');
 });
 
+botRem.music = require("discord.js-musicbot-addon");
+botRem.music.start(client, {
+	youtubeKey: "AIzaSyDYuk0Wf9wg9kYVKZVA9BTONoQKDRvxZlU"
+});
+
 //Set listener on 'message'
 botRem.on('message', message => {
   if (message.content === 'ฉันรักเอมิเลีย') {

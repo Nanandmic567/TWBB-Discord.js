@@ -10,7 +10,7 @@ botRem.on('ready', () => {
 });
 
 botRem.music = require("discord.js-musicbot-addon");
-botRem.music.start(client, {
+botRem.music.start(botRem, {
 	youtubeKey: "AIzaSyDYuk0Wf9wg9kYVKZVA9BTONoQKDRvxZlU"
 });
 

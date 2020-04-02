@@ -28,4 +28,10 @@ botRem.on('message', message => {
   }
 });
 
+botRem.on('message', message => {
+  if (message.content === 'อือ') {
+    message.reply('เออว่าแต่ว่า ชื่อมันก็คล้ายๆยี่ห้อรถเลยเนอะ5555');
+  }
+});
+
 botRem.login(process.env.BOT_TOKEN);

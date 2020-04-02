@@ -34,13 +34,13 @@ botRem.on('message', message => {
   }
 });
 
-botRem.on('message', message => {
-  if (message.content === 'Can you embed?') {
-    message.channel.send({embed: {
-    color: 3447003,
-    description: "A very simple Embed!"
-  }
-});
+//botRem.on('message', message => {
+//  if (message.content === 'Can you embed?') {
+//    message.channel.send({embed: {
+//    color: 3447003,
+//    description: "A very simple Embed!"
+//  }
+//});
 
 
 botRem.login(process.env.BOT_TOKEN);

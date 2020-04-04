@@ -21,3 +21,5 @@ Edit code as your want. When everything is done, Let's TRY!!
 ```javascript
 $ node myBot.js
 ```
+
+Alternatively you can run that on Heroku (with special techniques)

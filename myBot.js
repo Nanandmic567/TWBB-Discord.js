@@ -21,6 +21,13 @@ botRem.on('message', message => {
   }
 });
 
+//SuperValentine?!?!
+botRem.on('message', message => {
+  if (message.content === 'ฉันรักเอมิเลีย... แต่ครั้งนี้ขอแบบซุเปอร์วาเลนไทน์นะ') {
+    message.reply('เรมค่ะ เรมค่ะ หนูชื่อเรม มากับเอมและก็สุบารุ... พอใจยัง?');
+  }
+});
+
 botRem.on('message', message => {
   if (message.content === 'คิดผิดมั้ยพี่?') {
     message.reply('ผิดตั้งแต่น้องเรมเข้าสิงพี่ละ....');

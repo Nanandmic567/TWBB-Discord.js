@@ -54,5 +54,12 @@ botRem.on('message', message => {
 //  }
 //});
 
+// Simple basic response.
+botRem.on('message', message => {
+  if (message.content === 'Hi') {
+    message.reply('อ๋าาาาาา');
+  }
+});
+
 
 botRem.login(process.env.BOT_TOKEN);

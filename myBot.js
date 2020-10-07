@@ -46,6 +46,12 @@ botRem.on('message', message => {
   }
 });
 
+botRem.on('message', message => {
+  if (message.content === 'wow') {
+    message.reply('my god...');
+  }
+});
+
 //botRem.on('message', message => {
 //  if (message.content === 'Can you embed?') {
 //    message.channel.send({embed: {

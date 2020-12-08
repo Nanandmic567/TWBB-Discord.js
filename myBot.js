@@ -53,6 +53,12 @@ botRem.on('message', message => {
   }
 });
 
+botRem.on('message', message => {
+  if (message.content === `${prefix}server`) {
+    message.channel.send(`This server's name is: ${message.guild.name}`);
+  }
+});
+
 //botRem.on('message', message => {
 //  if (message.content === 'Can you embed?') {
 //    message.channel.send({embed: {

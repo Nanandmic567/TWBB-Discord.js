@@ -53,9 +53,16 @@ botRem.on('message', message => {
   }
 });
 
+// Displaying real data
 botRem.on('message', message => {
   if (message.content === `${prefix}server`) {
-    message.channel.send(`This server's name is: ${message.guild.name}`);
+    message.channel.send(`Server name: ${message.guild.name}\nTotal members: ${message.guild.memberCount}`);
+  }
+});
+
+botRem.on('message', message => {
+  if (message.content === `${prefix}user-info`) {
+    message.channel.send(`Your username: ${message.author.username}\nYour ID: ${message.author.id}`);
   }
 });
 

@@ -3,6 +3,7 @@ const Discord = require('discord.js');
 
 //Create client instance as bot
 const botRem = new Discord.Client();
+const config = require('./config.json');
 
 //Set listener on 'ready'
 botRem.on('ready', () => {
@@ -68,4 +69,4 @@ botRem.on('message', message => {
 });
 
 
-botRem.login(process.env.BOT_TOKEN);
+botRem.login(config.token);

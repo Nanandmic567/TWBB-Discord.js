@@ -69,4 +69,4 @@ botRem.on('message', message => {
 });
 
 
-botRem.login(config.token);
+botRem.login(process.env.BOT_TOKEN);

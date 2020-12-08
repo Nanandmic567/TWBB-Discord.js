@@ -3,7 +3,7 @@ const Discord = require('discord.js');
 
 //Create client instance as bot
 const botRem = new Discord.Client();
-const config = require('./config.json');
+const { prefix } = require('./config.json');
 
 //Set listener on 'ready'
 botRem.on('ready', () => {
